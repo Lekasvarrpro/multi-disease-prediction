@@ -25,7 +25,4 @@ Users input health parameters via a **React frontend**, and the **Python Flask b
 
 🔗 Live Demo
 
-Try the project online: multi-disease-prediction-green.vercel.app
----
-
-## 🏗️ Project Architecture
+Try the project online: https://multi-disease-prediction-green.vercel.app/dashboard
