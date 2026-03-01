@@ -6,7 +6,7 @@ AXIOS BASE CONFIGURATION
 =====================================
 */
 const API = axios.create({
-  baseURL: "http://127.0.0.1:5000",
+  baseURL: "https://multi-disease-prediction-1-5m13.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
