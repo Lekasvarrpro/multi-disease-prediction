@@ -45,7 +45,7 @@ const Navbar = () => {
             className="text-red-500 text-2xl"
           >
             <img
-              src="./src/assets/favicon.png"
+              src="./assets/favicon.png"
               alt="PredictraNova"
               className="w-12 h-12"
             />
