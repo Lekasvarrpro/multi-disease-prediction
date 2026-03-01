@@ -4,7 +4,6 @@ import { FaHeartbeat } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { auth } from "../firebase";
 import { signOut, onAuthStateChanged } from "firebase/auth";
-import logo from '../assets/favicon.png';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -46,7 +45,7 @@ const Navbar = () => {
             className="text-red-500 text-2xl"
           >
             <img
-              src= {logo}
+              src= "favicon.png"
               alt="PredictraNova"
               className="w-12 h-12"
             />
