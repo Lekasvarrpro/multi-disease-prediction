@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.inputStyle {
+  @apply w-full p-3 rounded-xl
+  bg-white/80 text-gray-800
+  border border-gray-200
+  backdrop-blur-md
+  outline-none
+  transition-all duration-300 ease-in-out
+  shadow-sm;
+}
+
+/* hover effect */
+.inputStyle:hover {
+  @apply shadow-md border-gray-300;
+  transform: translateY(-1px);
+}
+
+/* focus glow effect */
+.inputStyle:focus {
+  @apply ring-2 ring-purple-400 border-transparent shadow-lg;
+  transform: translateY(-1px) scale(1.01);
+}
+
+/* select fix */
+select.inputStyle {
+  @apply cursor-pointer;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+.animate-gradient {
+  animation: gradientMove 6s linear infinite;
+}
